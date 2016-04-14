@@ -18,15 +18,18 @@
         <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACHIEVEMENT"/>
+        android:text="ACHIEVEMENT"
+        android:onClick="StartAchievementFragment"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ABOUT GAME"/>
+            android:text="ABOUT GAME"
+            android:onClick="StartAboutGameFragment"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EXIT"/>
+            android:text="EXIT"
+            android:onClick="ExitAplication"/>
     </LinearLayout>
 
 </FrameLayout>
